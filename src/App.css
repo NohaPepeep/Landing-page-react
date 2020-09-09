@@ -1,0 +1,49 @@
+
+body{
+    font-family: system-ui;
+}
+.body{
+    background-color:#9bcbbb;
+    padding:20px
+}
+.form-h3,.form-p{
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    margin:0 auto;
+}
+label{
+    text-align: left;
+    display: block;
+    padding: 20px 0;
+}
+
+.inputName,.inputEmail{
+    width:200px
+}
+input{
+    background: none;
+    border: none;
+    border-bottom:1px solid black;
+}
+.labelCont{
+    display: flex;
+    justify-content: space-between;
+}
+.divButton{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.formbutton{
+    text-align: center;
+    width: 100px;
+    background:none;
+    margin:10px 0;
+    padding:10px;
+    border:2px solid black;
+}
